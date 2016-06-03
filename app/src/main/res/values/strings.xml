@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HomeWork</string>
+
+    <string name="frag1_text">Fragment 1</string>
+    <string name="frag2_text">Fragment 2</string>
+    <string name="frag3_text">Fragment 3</string>
+    <string name="bankomat">Банкомат</string>
+    <string name="addmoney">Пополнить счёт</string>
+    <string name="withdraw">Выдача наличных</string>
+    <string name="checkcont">Остаток на счёте</string>
+    <string name="amount_hint">Введите</string>
+    <string name="enter_nominals">Введите номинал</string>
+    <string name="press_done">Done</string>
+    <string name="press_cancel">Cancel</string>
+    <string name="enter_count">Кол-во купюр</string>
+    <string name="press_dones">Done</string>
+    <string name="press_cancels">Cancel</string>
+    <string name="enter_sum">Введите сумму</string>
+    <string name="press_donesw">Done</string>
+
+
+</resources>
