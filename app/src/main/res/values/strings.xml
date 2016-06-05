@@ -4,10 +4,10 @@
     <string name="frag1_text">Fragment 1</string>
     <string name="frag2_text">Fragment 2</string>
     <string name="frag3_text">Fragment 3</string>
-    <string name="bankomat">Банкомат</string>
-    <string name="addmoney">Пополнить счёт</string>
+    <string name="terminal">Банкомат</string>
+    <string name="add_money">Пополнить счёт</string>
     <string name="withdraw">Выдача наличных</string>
-    <string name="checkcont">Остаток на счёте</string>
+    <string name="check_cont">Остаток на счёте</string>
     <string name="amount_hint">Введите</string>
     <string name="enter_nominals">Введите номинал</string>
     <string name="press_done">Done</string>
