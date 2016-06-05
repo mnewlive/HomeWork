@@ -9,8 +9,7 @@ public class MainActivity extends Activity {
 
     public AddMoney fragment1;
     public Withdraw fragment2;
-
-//    public CheckCont fragment3;
+    public CheckCont fragment3;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -18,6 +17,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         fragment1 = (AddMoney) getFragmentManager().findFragmentById(R.id.fragment1);
+        fragment3 = (CheckCont) getFragmentManager().findFragmentById(R.id.fragment3);
 
 
         Fragment frag2 = new Withdraw();
@@ -26,13 +26,7 @@ public class MainActivity extends Activity {
         ft.commit();
 
         fragment2 = (Withdraw) frag2;
-    }
 
-    /*@Override
-    public void someEvent(String s) {
-        Fragment frag2 = getFragmentManager().findFragmentById(R.id.fragment2);
-        ((TextView)frag2.getView().findViewById(R.id.textView)).setText("Номиналы x количество " + s);
-    }
-*/
 
+    }
 }

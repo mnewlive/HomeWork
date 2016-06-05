@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 
 public class AddMoney extends Fragment {
-  //  public  TextView tv;
+
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -26,7 +26,7 @@ public class AddMoney extends Fragment {
             @Override
             public void onClick(View v) {
                 // TODO check
-               // tv.setError("error");
+                tv.setError("error");
                 lpan1.setVisibility(View.VISIBLE);
             }
         });
@@ -43,6 +43,7 @@ public class AddMoney extends Fragment {
                 lpan1.setVisibility(View.GONE);
 
                 ((MainActivity)getActivity()).fragment2.et.setText(String.valueOf(res));
+                ((MainActivity)getActivity()).fragment3.edt.setText(String.valueOf(res));
 
                 Toast.makeText(getActivity(), String.valueOf(res), Toast.LENGTH_LONG).show();
 

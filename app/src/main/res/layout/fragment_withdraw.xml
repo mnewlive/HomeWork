@@ -27,13 +27,16 @@
             android:id="@+id/vida4a"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="@string/enter_sum"        />
+            android:hint="@string/enter_sum"/>
         <Button
             android:id="@+id/ppDone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/press_donesw"/>
         </LinearLayout>
-    <LinearLayout  android:layout_width="wrap_content"
-        android:layout_height="wrap_content" android:id="@+id/llAdd" android:orientation="vertical"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llAdd"
+        android:orientation="vertical"/>
 </LinearLayout>

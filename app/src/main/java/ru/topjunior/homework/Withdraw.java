@@ -15,28 +15,17 @@ import android.widget.Toast;
 
 
 public class Withdraw extends Fragment {
- public    EditText et;
 
-    /*public interface onSomeEventListener {
-        public void someEvent(String s);
-    }
 
-    onSomeEventListener someEventListener;
+    public EditText et;
 
-    @Override
-    public void onAttach(Activity activity) {
-        super.onAttach(activity);
-        try {
-            someEventListener = (onSomeEventListener) activity;
-        } catch (ClassCastException e) {
-            throw new ClassCastException(activity.toString() + " must implement onSomeEventListener");
-        }
-    }*/
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
       final  View v = inflater.inflate(R.layout.fragment_withdraw, null);
+
         et = (EditText) v.findViewById(R.id.vida4a);
+
         v.findViewById(R.id.ppDone).setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v1) {
@@ -65,13 +54,6 @@ public class Withdraw extends Fragment {
             }
         });
 
-        Button button = (Button) v.findViewById(R.id.button);
-        button.setOnClickListener(new OnClickListener() {
-            public void onClick(View v) {
-//                someEventListener.someEvent("тест");
-            }
-        });
-
         return v;
     }
 
@@ -87,3 +69,4 @@ public class Withdraw extends Fragment {
         return nominals;
     }
 }
+

@@ -15,6 +15,11 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/checkcont">
+        android:text="@string/check_cont">
     </Button>
+    <EditText
+        android:id="@+id/vida4a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ваш остаток"/>
 </LinearLayout>
