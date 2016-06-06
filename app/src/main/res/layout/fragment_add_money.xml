@@ -27,7 +27,8 @@
         android:id="@+id/test1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/enter_nominals"/>
+        android:hint="@string/enter_nominals"
+        android:inputType="number"/>
     <Button
         android:id="@+id/ppDone"
         android:layout_width="wrap_content"
@@ -49,7 +50,8 @@
             android:id="@+id/test"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="@string/enter_count"/>
+            android:hint="@string/enter_count"
+            android:inputType="number"/>
         <Button
             android:id="@+id/ppDone1"
             android:layout_width="wrap_content"
